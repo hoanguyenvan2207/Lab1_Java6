@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Nguyen Thi A",
+    "gender": true,
+    "marks": 8.5,
+    "contact": {
+      "email": "anguyen@example.com",
+      "phone": "0987654321"
+    },
+    "subjects": [
+      "MAT101",
+      "ENG102",
+      "SCI201"
+    ]
+  },
+  {
+    "name": "Tran Van B",
+    "gender": true,
+    "marks": 7.8,
+    "contact": {
+      "email": "btran@example.com",
+      "phone": "0123456789"
+    },
+    "subjects": [
+      "HIS301",
+      "POL401",
+      "ECO501"
+    ]
+  },
+  {
+    "name": "Pham Thi C",
+    "gender": false,
+    "marks": 9.2,
+    "contact": {
+      "email": "cpham@example.com",
+      "phone": "0456789012"
+    },
+    "subjects": [
+      "ART101",
+      "MUS201",
+      "DES301"
+    ]
+  },
+  {
+    "name": "Le Van D",
+    "gender": true,
+    "marks": 6.9,
+    "contact": {
+      "email": "dle@example.com",
+      "phone": "0789012345"
+    },
+    "subjects": [
+      "PHY101",
+      "CHE201",
+      "BIO301"
+    ]
+  },
+  {
+    "name": "Hoang Thi E",
+    "gender": false,
+    "marks": 8.1,
+    "contact": {
+      "email": "ehoang@example.com",
+      "phone": "0654321098"
+    },
+    "subjects": [
+      "ECO101",
+      "BUS201",
+      "MGT301"
+    ]
+  }
+]

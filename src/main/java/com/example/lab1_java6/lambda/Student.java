@@ -1,4 +1,4 @@
-package com.example.lab1_java6;
+package com.example.lab1_java6.lambda;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

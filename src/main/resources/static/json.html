@@ -1,10 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
 </head>
 <body>
-$END$
+<script>
+    var sv = {
+        "name" : "Nguyen Van Hoa",
+        "gender" : true,
+        "marks" : 10.0,
+        "contact": {
+            "email" : "hoanvph47429@fpt.edu.vn",
+            "phone" : "0375220702"
+        },
+        "subjects" : ["WEB205", "COM108"]
+    }
+    console.log(sv)
+
+    sv.name = sv['name'].toUpperCase();
+    console.log(sv.name, sv.contact.email, sv.subjects[0])
+
+    for (var key in sv){
+        console.log(key, sv[key])
+    }
+    var text = JSON.stringify(sv)
+    console.log(text)
+
+    var object = JSON.parse(text)
+    console.log(object)
+</script>
 </body>
 </html>
